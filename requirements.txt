@@ -1,0 +1,32 @@
+Flask==0.12.2
+Flask-RESTful==0.3.6
+Flask-SQLAlchemy==2.3.2
+generateDS==2.29.11
+lxml==4.2.1
+protobuf==3.5.1
+
+gevent==1.2.2
+greenlet==0.4.12
+gunicorn==19.7.1
+
+# optional, it's used for the ssl
+pyOpenSSL==17.5.0
+
+# optional, it's used in the manage.py.
+Flask-Script==2.0.6
+
+# optional, it will used in the future version, and now it's used to detect the cpu count
+psutil==5.4.2
+
+# optional, if you want to disable the command performance trace
+PyMySQL==0.7.11
+
+# optional, it's used to test the restful api
+requests==2.18.4
+
+# optional, it's used to test
+Flask-Testing==0.7.1
+
+# optional, it may be used to show the readme.md, but it doesn't support some markdown features
+# Flask-Markdown==0.3
+

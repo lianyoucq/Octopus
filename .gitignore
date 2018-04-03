@@ -1,0 +1,14 @@
+.idea/*
+!workdir/log.conf
+workdir/*
+__pycache__
+logs/*
+ssl/*
+workspace/*
+tests/logs/*
+tests/logs/obsoleted/*
+tests/logs/__pycache__/*
+tests/logs/resources/*
+tests/resources/*
+tests/workspace
+*.pyc

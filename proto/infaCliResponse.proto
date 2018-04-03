@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message InfaCliResponse {
+  int32 retcode = 1;
+  string stdout = 2;
+  repeated ExtraMessages messages = 3;
+
+
+  message ExtraMessages {
+    string name = 1;
+    string value = 2;
+  }
+
+}
+
