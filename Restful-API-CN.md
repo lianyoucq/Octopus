@@ -175,9 +175,8 @@ curl http://localhost:5000/api/mgt/env/ICMD_JAVA_OPTS -X DELETE
     
     ```json
     {
-        "status": "Success",
-        "retCode": 0,
-        "message": "TWuNzDbE2H9XA7BPmCgxrg=="
+	"retcode": 0, 
+ 	"stdout": "blS+xC17ivblojrx4Hhsug=="
     }
     ```
 
@@ -200,7 +199,7 @@ curl http://localhost:5000/api/mgt/env/ICMD_JAVA_OPTS -X DELETE
     
     python parse_protobuf.py ping.dat
     retcode: 0
-    stdout: [INFACMD_10052] Service [_adminconsole] Domain [DM102_INFA210] Host:Port [infa210.sleety.com:6408] was successfully pinged.
+    stdout: [INFACMD_10052] Service [_adminconsole] Domain [DM_Arthur_Jellyfish] Host:Port [arthur-jellyfish.infaec.com:6005] was successfully pinged.
     messages: 
     ```
 
